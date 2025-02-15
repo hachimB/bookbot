@@ -1,1 +1,1 @@
-BookBot is my first project!
+The BookBot project.
