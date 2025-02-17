@@ -27,7 +27,7 @@ def char_count(f_contents):
             dictionary[k] += 1
     return dictionary
  
-# Word count function returns the number words in the text
+# Word count function returns the number of words in the text
 def word_count(f_contents):
     count = 0
     arr = f_contents.split()
@@ -39,7 +39,7 @@ def word_count(f_contents):
 def main():
 
     path = "books/frankenstein.txt"
-    # Let's first the content of the file 
+    # Let's first read the content of the file 
     with open(path) as f:
         f_contents = f.read()
 
